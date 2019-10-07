@@ -176,4 +176,10 @@ serdes: // PHY TYP see: dt-bindings/phy/phy.h
     };
 };
 
-
+&spi0 {
+  spidev@0x00 {
+    compatible = "spidev";
+    spi-max-frequency = <1000000>;
+    reg = <0>;
+  };
+};
