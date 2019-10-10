@@ -4378,6 +4378,7 @@ CONFIG_imagefeature-hwcodecs=y
 #
 # apps 
 #
+CONFIG_spidev-test=y
 CONFIG_startup=y
 CONFIG_webfwu=y
 
