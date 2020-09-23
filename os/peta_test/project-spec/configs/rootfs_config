@@ -4387,6 +4387,8 @@ CONFIG_webfwu=y
 #
 # CONFIG_gpio-demo is not set
 # CONFIG_peekpoke is not set
+CONFIG_python3-smbus=y
+CONFIG_python3-spidev=y
 
 #
 # PetaLinux RootFS Settings
